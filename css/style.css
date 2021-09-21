@@ -75,6 +75,7 @@ nav ul li{
     text-align: center;
     padding-top: 10px;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 /*Link*/
