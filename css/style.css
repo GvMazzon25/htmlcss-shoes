@@ -38,13 +38,19 @@ html{
     transform: translate(-50%,-50%);
 }
 
-.box h1{
-    text-align: center;
-    color: yellow;
-    font-size: 50px;
+.model{
+    width: 90%;
+    height: auto;
+    margin: auto;
 }
 
-.box .special{
+.box .model h1{
+    text-align: center;
+    color: yellow;
+    font-size: 60px;
+}
+
+.box .model .special{
     color: green;
 }
 
@@ -61,12 +67,13 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    font-size: 35px;
+    font-size: 25px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: white;
     text-align: center;
+    padding-top: 10px;
     margin-left: 40px;
 }
 
