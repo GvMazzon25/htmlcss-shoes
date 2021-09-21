@@ -1,8 +1,13 @@
+/*Generals*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 /*Background Color*/
@@ -46,7 +51,29 @@
 /*NAVIGATIONS*/
 
 nav{
-    
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    right: 0;
+    padding: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    margin-left: 40px;
+}
+
+/*Link*/
+nav ul li a{
+    color: black;
+    text-decoration: none;
 }
 
 
